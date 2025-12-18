@@ -1,0 +1,13 @@
+{
+    "name": "birka/library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Birka\\Sixth\\Library\\": "src/"
+        }
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*",
+        "phpstan/phpstan": "^2.1"
+    }
+}
