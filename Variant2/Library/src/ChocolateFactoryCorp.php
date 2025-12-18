@@ -7,11 +7,11 @@ class ChocolateFactoryCorp extends ChocolateFactory
     public function createSnack(string $type): ?Snack
     {
         switch ($type) {
-            case 'Горький':
+            case "Горький":
                 return new Bitter();
-            case 'Белый':
+            case "Белый":
                 return new White();
-            case 'Молочный':
+            case "Молочный":
                 return new Milk();
             default:
                 return null;

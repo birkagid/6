@@ -6,6 +6,6 @@ class White extends Snack
 {
     public function __construct()
     {
-        parent::__construct('Белый', 'белый шоколад', ['фрукты']);
+        parent::__construct("Белый", "белый шоколад", ["фрукты"]);
     }
 }

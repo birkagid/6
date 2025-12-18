@@ -6,6 +6,6 @@ class PizzaMeat extends Pizza
 {
     public function __construct()
     {
-        parent::__construct('Мясная', 'барбекю', ['бекон', 'курица']);
+        parent::__construct("Мясная", "барбекю", ["бекон", "курица"]);
     }
 }

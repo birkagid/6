@@ -7,11 +7,11 @@ class PizzaStoreDodo extends PizzaStore
     public function createPizza(string $type): ?Pizza
     {
         switch ($type) {
-            case 'Ананас':
+            case "Ананас":
                 return new PizzaPineapple();
-            case 'Сыр':
+            case "Сыр":
                 return new PizzaCheese();
-            case 'Мясо':
+            case "Мясо":
                 return new PizzaMeat();
             default:
                 return null;

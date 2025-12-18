@@ -23,7 +23,7 @@ class Snack
     {
         echo "Началась создание snack-а {$this->name}" . PHP_EOL;
         echo "Добавляется шоколад {$this->chocolate}" . PHP_EOL;
-        echo 'Добавлены начинок: ' . implode(', ', $this->toppings) . PHP_EOL;
+        echo "Добавлены начинок: " . implode(", ", $this->toppings) . PHP_EOL;
     }
 
     public function cut(): void

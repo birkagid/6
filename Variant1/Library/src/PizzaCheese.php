@@ -6,6 +6,6 @@ class PizzaCheese extends Pizza
 {
     public function __construct()
     {
-        parent::__construct('Сырная', 'сырный', ['моцарелла', 'пармезан']);
+        parent::__construct("Сырная", "сырный", ["моцарелла", "пармезан"]);
     }
 }

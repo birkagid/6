@@ -6,6 +6,6 @@ class Bitter extends Snack
 {
     public function __construct()
     {
-        parent::__construct('Горький', 'темный шоколад', ['мёд']);
+        parent::__construct("Горький", "темный шоколад", ["мёд"]);
     }
 }

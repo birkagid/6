@@ -6,6 +6,6 @@ class PizzaPineapple extends Pizza
 {
     public function __construct()
     {
-        parent::__construct('Гавайская', 'сырный', ['ананас', 'курица']);
+        parent::__construct("Гавайская", "cырный", ["ананас", "курица"]);
     }
 }
