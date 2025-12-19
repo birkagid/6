@@ -8,7 +8,7 @@ class PizzaStore
     {
         $pizza = $this->createPizza($type);
         if ($pizza === null) {
-            echo "Такой пиццы нету: {$type}" . PHP_EOL;
+            echo "Такой пиццы нету: $type" . PHP_EOL;
             return null;
         }
         $pizza->prepare();

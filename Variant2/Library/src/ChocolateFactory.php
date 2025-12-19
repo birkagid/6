@@ -8,7 +8,7 @@ class ChocolateFactory
     {
         $snack = $this->createSnack($type);
         if ($snack === null) {
-            echo "Такого снэка нету: {$type}" . PHP_EOL;
+            echo "Такого снэка нету: $type" . PHP_EOL;
             return null;
         }
 
